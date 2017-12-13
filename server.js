@@ -125,3 +125,5 @@ app.get('/api/v1/cards/:recipient', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Listening for API requests to port ${PORT}`);
 });
+
+// to request random quote: GET to http://quotes.stormconsultancy.co.uk/random.json
